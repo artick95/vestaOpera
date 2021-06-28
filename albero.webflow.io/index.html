@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com --><!-- Last Published: Sat Jun 26 2021 11:36:33 GMT+0000 (Coordinated Universal Time) -->
+<html
+  data-wf-domain="albero.webflow.io"
+  data-wf-page="60bb1872cc93ecec928a67a6"
+  data-wf-site="6086c3c8e957cb3902d87191"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <meta content="Home" property="og:title" />
+    <meta content="Home" property="twitter:title" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link
+      href="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/css/albero.webflow.6f2556b74.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+            "Merriweather:300,300italic,400,400italic,700,700italic,900,900italic",
+            "Judson:regular,italic,700:latin,latin-ext,vietnamese",
+          ],
+        },
+      });
+    </script>
+    <!--[if lt IE 9
+      ]><script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        type="text/javascript"
+      ></script
+    ><![endif]-->
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link
+      href="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60d09cd5901901c7ebc881f5_fevicon.jpg"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://uploads-ssl.webflow.com/img/webclip.png"
+      rel="apple-touch-icon"
+    />
+  </head>
+  <body class="body-2">
+    <div class="w-embed">
+      <style>
+        .w-slider-dot {
+          border: 4px solid white;
+          background-color: #0f0814;
+        }
+
+        .w-slider-dot.w-active {
+          background-color: #ff9f46;
+          border: none;
+        }
+
+        .w-webflow-badge {
+          display: none !important;
+        }
+      </style>
+    </div>
+    <div data-w-id="bea2f3ff-d428-e8a1-35a4-54faf630e7f1" class="herowrapper">
+      <div
+        data-collapse="medium"
+        data-animation="default"
+        data-duration="400"
+        role="banner"
+        class="navbar w-nav"
+      >
+        <div class="logodiv">
+          <img
+            src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60be837fdd0a260da4ef920e_LOGO%20AI.svg"
+            loading="lazy"
+            width="101"
+            alt
+            class="image-2"
+          />
+          <h1 class="logotext">VESTA  Orchestra  And  Opera  FOUNDATION</h1>
+        </div>
+        <div class="container home-nav w-container">
+          <div class="navlanguageswitchwrapper">
+            <a href="#" class="link w-nav-link">EN</a>
+          </div>
+          <nav role="navigation" class="navmenulinkwrapper w-nav-menu">
+            <div class="linkwrapper">
+              <a href aria-current="page" class="link w-nav-link w--current"
+                >Home</a
+              >
+            </div>
+            <div class="linkwrapper">
+              <a href="about/" class="link w-nav-link">About</a>
+            </div>
+            <div class="linkwrapper">
+              <a href="support-us/" class="link w-nav-link">SUPPORT US</a>
+            </div>
+            <div class="linkwrapper">
+              <a href="contact-us/" class="link w-nav-link">CONTACT US</a>
+            </div>
+          </nav>
+          <div class="menu-button w-nav-button">
+            <div class="icon w-icon-nav-menu"></div>
+          </div>
+          <a href="#" class="cta-button ghost-button w-button">DONATE</a>
+        </div>
+      </div>
+      <div class="heromessage-wrapepr">
+        <div class="w-embed w-script">
+          <form>
+            <script src="https://js.paystack.co/v1/inline.js"></script>
+            <button type="button" onclick="payWithPaystack()">Pay</button>
+          </form>
+
+          <script>
+            function payWithPaystack() {
+              var handler = PaystackPop.setup({
+                key: "sk_test_6229a9a8530624ee033e43bec7b9728179f0063b",
+                email: "boccardoalessandro4@gmail.com",
+                amount: 10000,
+                currency: "NGN",
+                ref: "" + Math.floor(Math.random() * 1000000000 + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+                metadata: {
+                  custom_fields: [
+                    {
+                      display_name: "Mobile Number",
+                      variable_name: "mobile_number",
+                      value: "+2348012345678",
+                    },
+                  ],
+                },
+                callback: function (response) {
+                  alert("success. transaction ref is " + response.reference);
+                },
+                onClose: function () {
+                  alert("window closed");
+                },
+              });
+              handler.openIframe();
+            }
+          </script>
+        </div>
+      </div>
+      <div class="container-2 w-container">
+        <div class="div-block">
+          <h1 class="heading">
+            There are over 1000 performing arts graduates yearly in Nigeria
+            without jobs
+          </h1>
+          <p class="paragraph-2">
+            No prospects to fend for their families, as Nigeria has no standard
+            performance stage for these graduates.<br /><br />As a result,
+            young, educated talent is wasting away without an outlet for
+            expression.
+          </p>
+          <a href="#" class="button w-button">Donate</a>
+        </div>
+        <div class="div-block-2">
+          <img
+            src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60bb2498cd0542a7bf82cf83_Frame.svg"
+            loading="lazy"
+            alt
+            class="image-7"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container-3 w-container">
+        <div class="div-block-3"><h1 class="heading-2">Our Foundation</h1></div>
+        <div class="div-block-4"></div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container-12 w-container">
+        <div
+          data-animation="slide"
+          data-hide-arrows="1"
+          data-nav-spacing="5"
+          data-duration="500"
+          data-infinite="1"
+          class="slider w-slider"
+        >
+          <div class="w-slider-mask">
+            <div class="slide w-slide">
+              <p class="paragraph-3">
+                Is changing the lives of musicians by providing a performance
+                stage for young, incredibly talented Africans pursuing careers
+                in Performing Arts
+              </p>
+            </div>
+            <div class="slide w-slide">
+              <p class="paragraph-3">
+                Creating cultural connections with Creatives of African origin
+                around the world
+              </p>
+            </div>
+            <div class="slide w-slide">
+              <p class="paragraph-3">
+                Creating a formal performing arts eco system of international
+                standards
+              </p>
+            </div>
+            <div class="slide w-slide">
+              <p class="paragraph-3">
+                Creating jobs for the creative industry in Nigeria and West
+                Africa
+              </p>
+            </div>
+          </div>
+          <div class="w-slider-arrow-left">
+            <div class="w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-slider-nav w-round"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section-2">
+      <div class="background-circle"></div>
+      <div class="container-5 w-container">
+        <div
+          data-w-id="09c152a3-e5dc-4225-49c1-1d846dee16b0"
+          class="div-block-5"
+        >
+          <div class="div-block-7">
+            <div class="bullet-flex">
+              <div class="main-line"></div>
+              <div class="line"></div>
+              <div class="text">
+                <div class="cirlce"></div>
+                <div class="div-block-28">
+                  <h1 class="heading-3">Imagine an Opera House in Lagos</h1>
+                  <h1 class="heading-4">
+                    that gives these young graduates the opportunity to earn a
+                    livelihood, whilst contributing to the classical arts in an
+                    African idiom.
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="bullet-flex">
+              <div class="main-line-copy"></div>
+              <div class="line-copy"></div>
+              <div class="text">
+                <div class="cirlce-4"></div>
+                <div class="div-block-28">
+                  <h1 class="heading-3">Imagine a hub of creatives</h1>
+                  <h1 class="heading-4">
+                    composing, curating and performing African Opera
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="bullet-flex _1">
+              <div class="text end">
+                <div class="cirlce-5"></div>
+                <div class="div-block-28 _1">
+                  <h1 class="heading-3">
+                    Imagine...<br />&quot;THE LAGOS OPERA&quot;
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-block-6">
+          <img
+            src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c888a785bbf785f83750b8_a4.png"
+            loading="lazy"
+            sizes="100vw"
+            srcset="
+              https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c888a785bbf785f83750b8_a4-p-500.png 500w,
+              https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c888a785bbf785f83750b8_a4.png       757w
+            "
+            alt
+            class="image-5"
+          />
+          <div class="html-embed w-embed w-iframe">
+            <iframe
+              id="1f2d51bc-9d07-406b-bbeb-f555431c8943"
+              src="https://www.vectary.com/viewer/v1/?model=1f2d51bc-9d07-406b-bbeb-f555431c8943&amp;env=monkforest"
+              frameborder="0"
+              width="100%"
+              height="100%"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container-3 w-container">
+        <div class="div-block-3"><h1 class="heading-2">With a Vision</h1></div>
+        <div class="div-block-4"></div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container-4 _2 w-container">
+        <p class="paragraph-3">
+          To present African Art music to the world in all its colour, sound and
+          life.
+        </p>
+      </div>
+    </div>
+    <div class="section-6">
+      <div class="container-3 w-container">
+        <div class="div-block-3"><h1 class="heading-2">And a Mission</h1></div>
+        <div class="div-block-4"></div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container-4 _3 w-container">
+        <p class="paragraph-3 mission-text">
+          To provide a stage where African classical music is performed; where
+          musicians and composers of African origin and otherwise, display their
+          talent and contribute to the classical music genre with an African
+          idiom.
+        </p>
+      </div>
+    </div>
+    <footer id="footer" class="footer">
+      <div class="container-7 w-container">
+        <div class="footer-flex-container">
+          <a href="#" class="footer-logo-link"
+            ><img
+              src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c89f6020a68c802e91f85a_logo.png"
+              alt
+              class="footer-image"
+          /></a>
+          <div class="div-block-15">
+            <div class="text-block">Quick Links</div>
+            <ul role="list" class="list w-list-unstyled">
+              <li><a href="#" class="footer-link">About</a></li>
+              <li><a href="#" class="footer-link">Support Us</a></li>
+              <li><a href="#" class="footer-link">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="div-block-16">
+            <div class="text-block">Get in touch</div>
+            <ul role="list" class="list-2 w-list-unstyled">
+              <li>
+                <a href="#" class="footer-link">+234 802 103 4889<br /></a>
+              </li>
+              <li>
+                <a href="#" class="footer-link"
+                  >admin@vestafoundation.org<br
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="text-block">Stay Connected</div>
+            <div class="w-form">
+              <form
+                id="email-form"
+                name="email-form"
+                data-name="Email Form"
+                class="subscribe-form-flex"
+              >
+                <div class="subscribe-form-input-wrapper">
+                  <input
+                    type="email"
+                    class="subscribe-form-input w-input"
+                    maxlength="256"
+                    name="Subscriber-2"
+                    data-name="Subscriber 2"
+                    placeholder="name@email.com"
+                    id="Subscriber-2"
+                    required
+                  />
+                </div>
+                <input
+                  type="submit"
+                  value="Subscribe"
+                  data-wait="Please wait..."
+                  class="submit-button w-button"
+                />
+              </form>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+            <div class="text-block _1">
+              Subscribe to our newsletter for updates.
+            </div>
+          </div>
+        </div>
+        <div class="div-block-9">
+          <div>
+            <div class="text-block">
+              © 2021 Vesta Foundation. All Rights Reserved.
+            </div>
+          </div>
+          <div>
+            <a href="#" class="link-block w-inline-block"
+              ><img
+                src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c8a0fd2bc7b115ff9f98c7_Path%2037.svg"
+                loading="lazy"
+                alt /></a
+            ><a href="#" class="link-block-2 w-inline-block"
+              ><img
+                src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c8a0fca382c212bec91934_5f3f0a773625d7130d5972cd_instagram.svg"
+                loading="lazy"
+                alt /></a
+            ><a href="#" class="link-block-3 w-inline-block"
+              ><img
+                src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c8a0fda7a951f45e2f39d9_Path%2038.svg"
+                loading="lazy"
+                alt /></a
+            ><a href="#" class="link-block-4 w-inline-block"
+              ><img
+                src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c8a0fd4dfb7209187d571f_Path%2041.svg"
+                loading="lazy"
+                alt /></a
+            ><a href="#" class="link-block-5 w-inline-block"
+              ><img
+                src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/60c8a0fcab130414d400ac9d_Group%2076.svg"
+                loading="lazy"
+                alt
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6086c3c8e957cb3902d87191"
+      type="text/javascript"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://uploads-ssl.webflow.com/6086c3c8e957cb3902d87191/js/webflow.d2e69ae1a.js"
+      type="text/javascript"
+    ></script>
+    <!--[if lte IE 9
+      ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script
+    ><![endif]-->
+  </body>
+</html>
